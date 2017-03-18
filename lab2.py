@@ -7,8 +7,9 @@ def ger_sqrt(num):
         if  x ** 2 == num or x == pre:
             sq = True
     return x;
-
+import math
 print('введите число')
 num = int(input())
 x = ger_sqrt(num)
-print(x)
+print('мой код ', x)
+print('выстоенная функция sqrt', math.sqrt(num))
